@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width: 768px){
+    body{
+        font-size: 14px;
+    }
+}
+@media(max-width: 480px){
+    body{
+        font-size: 12px;
+    }
+}
+@media(max-width:400px){
+    #container-1{
+        font-size: 12px;
+        text-align: center;
+        
+    }
+    
+}
+
+
+
+#AA{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    color:green;
+    font-size: xx-large;
+    text-align: center;
+    
+
+}
+.fa-star{
+    color: green;
+
+}
+.fa-location-dot{
+    color: brown;
+        
+}
+.fa-phone{
+    color: green;
+}
+.fa-envelope{
+    color: blue;
+}
+.fa-square-whatsapp{
+    color: green;
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.column {
+    flex: 1 1 100%; /* 100% width on small screens */
+}
+@media(min-width: 768px) {
+    .column {
+        flex: 1 1 50%; /* 50% width on medium screens */
+    }
+}
+@media(min-width: 1024px) {
+    .column {
+        flex: 1 1 33.33%; /* 33.33% width on large screens */
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        display: none; /* Hide the navbar on small screens */
+    }
+}
+body {
+    font-size: 16px;
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar a {
+    flex: 1;
+    padding: 8px;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+
